@@ -1,0 +1,53 @@
+header, footer {
+	height: 60px;
+}
+
+h1 {
+	font-size: 26px;
+	color: #0f0f0f;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none; 
+}
+
+a:hover {
+	color: #ff0000; 
+}
+
+article {
+	background-color: #cecece; 
+}
+
+article:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 16px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 16px;
+}
+.news-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.news-list li {
+	margin-bottom: 8px;
+}
+
+.news-list li a {
+	text-decoration: none;
+	color: #007bff;
+}
+
+.news-list li a:hover {
+	color: #ff0000;
+	text-decoration: none;
+}
